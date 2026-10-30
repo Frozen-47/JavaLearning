@@ -1,16 +1,15 @@
-package byFPCFSD.Exceptions;
+package byFPCFSD.Collection.LinkedLst;
 
 import java.util.*;
 
-public class ArrayLst {
+public class LinkedLst {
     public static void main(String[] args) {
 
-        ArrayList name = new ArrayList<>();
+        LinkedList name = new LinkedList();
         name.add("Sabareesh");
         name.add("G");
         name.add("Hello");
-        name.addAll(Arrays.asList(70, "Hello"));
-        System.out.println(name);
+        System.out.print(name);
         name.remove(2);
         System.out.print(name);
     }
